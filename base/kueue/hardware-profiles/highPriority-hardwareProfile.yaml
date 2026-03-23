@@ -22,7 +22,7 @@ spec:
     minCount: 2Gi
     resourceType: Memory
   - defaultCount: 1
-    displayName: NVIDIA L4
+    displayName: A30
     identifier: nvidia.com/gpu
     maxCount: 4
     minCount: 1
