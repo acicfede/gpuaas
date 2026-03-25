@@ -22,9 +22,9 @@ spec:
     - name: default-flavor
       resources:
       - name: cpu
-        nominalQuota: 32
+        nominalQuota: 50
       - name: memory
-        nominalQuota: 36Gi
+        nominalQuota: 50Gi
   - coveredResources:
     - nvidia.com/gpu
     flavors:
