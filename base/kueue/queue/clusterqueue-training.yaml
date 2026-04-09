@@ -8,7 +8,7 @@ spec:
     withinClusterQueue: LowerPriority
   namespaceSelector:
     matchLabels:
-      kubernetes.io/metadata.name: team-training
+      kubernetes.io/metadata.name: llm-fine-tuning
   queueingStrategy: BestEffortFIFO
   cohortName: gpu-cohort
   resourceGroups:
