@@ -11,7 +11,7 @@ spec:
     withinClusterQueue: LowerPriority
   namespaceSelector:
     matchLabels:
-      kubernetes.io/metadata.name: agent
+      kubernetes.io-metadata.name: agent
   queueingStrategy: BestEffortFIFO
   cohortName: gpu-cohort
   resourceGroups:
