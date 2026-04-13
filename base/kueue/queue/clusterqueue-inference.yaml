@@ -1,7 +1,7 @@
 apiVersion: kueue.x-k8s.io/v1beta2
 kind: ClusterQueue
 metadata:
-  name: default
+  name: inference-cq
 spec:
   preemption:
     reclaimWithinCohort: Any
