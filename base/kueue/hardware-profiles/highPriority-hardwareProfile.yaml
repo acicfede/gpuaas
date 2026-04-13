@@ -29,6 +29,6 @@ spec:
     resourceType: Accelerator
   scheduling:
     kueue:
-      localQueueName: agent
+      localQueueName: team-inference
       priorityClass: inference-priority
     type: Queue
