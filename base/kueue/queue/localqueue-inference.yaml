@@ -4,4 +4,4 @@ metadata:
   name: agent
   namespace: agent
 spec:
-  clusterQueue: default
+  clusterQueue: inference-cq
