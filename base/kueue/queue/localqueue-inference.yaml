@@ -1,7 +1,7 @@
 apiVersion: kueue.x-k8s.io/v1beta2
 kind: LocalQueue
 metadata:
-  name: agent
+  name: team-inference
   namespace: agent
 spec:
   clusterQueue: inference-cq
